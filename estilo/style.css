@@ -12,11 +12,7 @@ header {
     border-radius: 5px;
 }
 
-#titulo {
-    text-align: center;
-    padding-top: 30px;
-    font-size: 3.1em;
-}
+
 
 .menu-container{
     display: flex;
@@ -39,45 +35,4 @@ header {
 
 #menu>a:hover {
     font-weight: bold;
-    padding: 1px;}
-
-.logo-container{
-    display: flex;
-    justify-content: center;
-}
-
-.logo-container>img{
-    max-width: 70px;
-    padding-top: 30px;
-}
-
-.line-container{
-    display: flex;
-    align-items: ;
-/*preciso pensar em como fazer um circulo*/
-}
-
-.line1{
-    height: 1px;
-    background-color: black;
-    width: 40%;
-}
-
-.line-circle{
-    
-    background-color: white;
-    border-style: outset;
-    border-color: black;
-    border-width: 1px;
-    border-top-color:white;
-    height: 100px;
-    width: 20%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-}
-
-.line2{
-    background-color: black;
-    height: 1px;
-    width: 40%;
-}
+  
