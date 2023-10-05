@@ -8,15 +8,16 @@
 header {
     padding-left: 15px;
     padding-right: 15px;
-    border-color: slateblue;
-    border-radius: 5px;
 }
-
 
 
 .menu-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.logo{
+    max-width: 270px;
 }
 
 #menu {
@@ -32,7 +33,9 @@ header {
     color: black;
     padding: 3px;
 }
+/*i need to seach for a new font*/
 
 #menu>a:hover {
     font-weight: bold;
-  
+    color: #ff3131;
+}
