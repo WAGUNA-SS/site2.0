@@ -50,8 +50,9 @@ header {
     text-align: center;
 }
 
-#imagemfundo{
-    
-    
-    /*i need to put a new image in the background 
+.imagemfundo{
+    background-image: url(../imagens/imagemdefundo.jpg);
+    height: 1800px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
