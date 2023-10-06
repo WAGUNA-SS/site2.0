@@ -45,14 +45,18 @@ header {
     padding: 5px;
 }
 
-.slogan {
-    font-family: 'Segoe UI', sans-serif;
-    text-align: center;
-}
-
-.imagemfundo{
+.imagemfundo-container{
+    position: relative;
     background-image: url(../imagens/imagemdefundo.jpg);
     height: 1800px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.slogan {
+    position: absolute;
+    font-family: 'Segoe UI', sans-serif;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 5px;
 }
