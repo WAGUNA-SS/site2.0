@@ -47,7 +47,7 @@ header {
 
 .imagemfundo-container{
     position: relative;
-    background-image: url(../imagens/imagemdefundo.jpg);
+    background-image: url(../imagens/bg.png);
     height: 1800px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,5 +58,12 @@ header {
     font-family: 'Segoe UI', sans-serif;
     left: 50%;
     transform: translateX(-50%);
-    padding-top: 5px;
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+#slogan2{
+    padding-top: 50px;
 }
