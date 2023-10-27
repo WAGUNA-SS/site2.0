@@ -53,6 +53,7 @@ header {
     height: 1562px;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 60px;
 }
 
 .slogan {
@@ -84,7 +85,25 @@ header {
     color: orange;
 }
 
-.imgbody-container{
+.box{
+    margin: auto;
+    width: 850px;
+    height: 200px;
+    background-color: #ff3131;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box > h2{
+    font-size: 3em;
+}
+
+.box > p{
+    padding-top: 5px;
+    font-size: 2.5em;
+}
+
+/*.imgbody-container{
     background-image: url(../imagens/anastasia-pirri-Emjmmy2_uuo-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
