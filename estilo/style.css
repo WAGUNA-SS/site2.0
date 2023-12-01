@@ -92,6 +92,7 @@ header {
     background-color: #ff3131;
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 .box > h2{
@@ -103,7 +104,101 @@ header {
     font-size: 2.5em;
 }
 
+.box2{
+    border-radius: 10px;
+    width: 850px;
+    height: 590px;
+    margin: auto;
+    text-align: center;
+    background-color: orange;
+    margin-bottom: 100px;
+}
+.box2>h2{
+    padding: 10px;
+    font-size: 3em;
+}
+.box2>p{
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5em;
+}
 
+.box2>#trafficlight{
+    height: 250px;
+    margin: 15px;
+}
+
+.box3{
+    border-radius: 10px;
+    width: 850px;
+    height: 630px;
+    margin: auto;
+    text-align: center;
+    background-color: orange;
+    margin-bottom: 100px;
+}
+
+.box3>h2{
+    font-size: 3em;
+    padding: 10px;
+}
+
+.box3>#road{
+    margin: 10px;
+    height: 250px;
+}
+
+.box3>p{
+    font-size: 2.5em;
+}
+
+.box4{
+    border-radius: 10px;
+    width: 850px;
+    height: 670px;
+    margin: auto;
+    text-align: center;
+    background-color: orange;
+    margin-bottom: 100px;
+    }
+
+.box4>h2{
+    font-size: 3em;
+    padding: 10px;
+}
+
+.box4>#construction{
+    height: 250px;
+    margin: 10px;
+}
+
+.box4>p{
+    font-size: 2.5em;
+}
+
+.box5{
+    border-radius: 10px;
+    width: 850px;
+    height: 730px;
+    margin: auto;
+    text-align: center;
+    background-color: orange;
+    margin-bottom: 100px;
+}
+
+.box5>h2{
+    font-size: 3em;
+    padding: 10px;
+}
+
+.box5>#cone{
+    height: 250px;
+    margin: 10px;
+}
+
+.box5>p{
+    font-size:2.5em;
+}
 /*.imgbody-container{
     background-image: url(../imagens/anastasia-pirri-Emjmmy2_uuo-unsplash.jpg);
     background-size: cover;
