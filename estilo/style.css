@@ -205,9 +205,27 @@ footer{
     color: white;
 }
 
-#footer_content{
-    height: 300px;
+.contact_container{
     background-color: black;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+.icon_container{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.email{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.telegram{
+    color: white;
+    font-size: 2em;
 }
