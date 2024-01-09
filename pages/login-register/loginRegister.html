@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../../estilos/login/login.css">
+
+    <link rel="stylesheet" href="../../imagens/icones/fontawesome-free-6.5.1-web/css/all.css">
+</head>
+<body>
+    <main>
+
+            <div class="wrapper">
+
+                <span class="close-icon">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+                <div class="login">
+                    <form action="login.php" method="post">
+                        <h1>Login</h1>
+                        <div class="input-box">
+                            <input type="text" placeholder="Username" required>
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+    
+                        <div class="input-box">
+                            <input type="password" placeholder="Password" required>
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+    
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">remember me</label>
+                            <a href="#">Forgot password?</a>
+                        </div>
+    
+                        <button type="submit" class="btn">Login</button>
+    
+                        <div class="register-link">
+                            <p>Don't have an account? <a href="#">Register</a></p>
+                        </div>
+    
+                    </form>
+                </div>
+
+                <div class="register">
+                    <form action="register.php" method="post">
+                        <h1>Registration</h1>
+                        <div class="input-box">
+                            <input type="text" placeholder="Username" required>
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="email" placeholder="E-mail" required>
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+    
+                        <div class="input-box">
+                            <input type="password" placeholder="Password" required>
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+    
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">I agree to the terms & conditions</label>
+                        </div>
+    
+                        <button type="submit" class="btn">Register</button>
+    
+                        <div class="register-link">
+                            <p>Already have an account? <a class="login-link" href="#">Login</a></p>
+                        </div>
+    
+                    </form>
+                </div>
+
+            </div>
+    </main>
+
+    <script src="login-register.js"></script>
+</body>
+</html>

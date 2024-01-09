@@ -28,6 +28,38 @@ body{
     backdrop-filter: blur(20px);
     padding: 30px 40px;
     box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    overflow: hidden;
+    /*transition: height  .2s ease;*/
+}
+
+.wrapper .active-popup {
+    
+}
+
+.wrapper .active{
+    /*height: 520px;*/
+}
+
+.wrapper .login{
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.wrapper .active .login{
+    transition: none;
+    transform: translateX(-400px);
+}
+
+.wrapper .active .register{
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.wrapper .register{
+    position: absolute;
+    transition: none;
+    transform: translateX(400px);
+
 }
 
 .wrapper .close-icon{
@@ -37,6 +69,14 @@ body{
     width: 45px;
     height: 45px;
     background: #162938;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .wrapper h1{
@@ -86,6 +126,7 @@ body{
 .remember-forgot label input{
     accent-color: #fff;
     margin-right: 3px;
+    cursor: pointer;
 }
 .remenber-forgot a{
     color: #fff;
