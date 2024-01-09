@@ -30,6 +30,15 @@ body{
     box-shadow: 0 0 10px rgb(0, 0, 0, .2);
 }
 
+.wrapper .close-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #162938;
+}
+
 .wrapper h1{
     font-size: 36px;
     text-align: center;

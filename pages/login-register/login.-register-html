@@ -12,6 +12,10 @@
     <main>
 
             <div class="wrapper">
+
+                <span class="close-icon">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
                 
                 <form action="login.php" method="post">
                     <h1>Login</h1>
